@@ -1,5 +1,5 @@
 const { Sequelize } = require('sequelize');
-const sequelize = new Sequelize('my_database', 'Ankit', 'Ankit05092003', {
+const sequelize = new Sequelize('my_database', 'Ankit', '*******', {
   host: 'Local instance MySQL80',
   dialect: 'mysql',
 });
